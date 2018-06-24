@@ -1,0 +1,34 @@
+/* Font families
+
+font-family: 'Average', serif;
+font-family: 'Open Sans', sans-serif;
+
+/* Body styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color:black;
+}
+
+/* Navbar styles */
+
+.logo {
+  height: 50px;
+  max-width: 100%;
+}
+
+.nav-item {
+  padding-left: .6em;
+  padding-right: .6em;
+}
+
+.nav-link {
+  font-family: 'Average', serif;
+  font-size: 1em;
+  color: rgba(255,255,255,1);
+  margin-top: .5em;
+}
+  
+.nav-link:hover {
+  color: rgba(255,255,255,.75);
+  
