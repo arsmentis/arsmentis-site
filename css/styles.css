@@ -7,7 +7,6 @@ font-family: 'Open Sans', sans-serif;
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color:black;
 }
 
 /* Navbar styles */
@@ -31,4 +30,98 @@ body {
   
 .nav-link:hover {
   color: rgba(255,255,255,.75);
-  
+}
+
+/* Jumbotron styles */
+.jumbotron {
+  background-image: url("../img/home.png");
+  background-size: cover;
+  margin-top: -80px;
+  padding-top: 15em;
+  padding-bottom: 10.5em;
+}
+
+.jumbotron-title {
+  font-size: 4em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.jumbotron-sub {
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+/* Scroll button styles */
+
+.scroll-btn-light {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: .75em 1.25em;
+}
+
+.scroll-btn-dark {
+  border: 3px solid #000;
+  border-radius: 50%;
+  padding: .75em 1.25em;
+}
+
+span.fa-light {
+  color: #fff;
+  font-size: 2em;
+}
+
+span.fa-dark {
+  color: #000;
+  font-size: 2em;
+}
+
+/* Layout 1 row styles */
+
+.content-row {
+  margin-top: 7.5em;
+}
+
+.scroll-row {
+  margin-top: 5em;
+}
+
+.section-img-left {
+  padding-right: 4em;
+  padding-left: 0;
+}
+
+.section-blurb-right {
+  padding-right: 8em;
+  padding-left: 0;
+}
+
+.section-img-right {
+  padding-left: 0;
+  margin-left: -3.1em;
+}
+
+.section-blurb-left {
+  padding-left: 8em;
+  padding-right: 0;
+}
+
+.section-blurb-para {
+  padding-right: 7em;
+}
+
+.final-section {
+  padding-bottom: 7em;
+}
+
+footer {
+  margin-top: 5em;
+  border: 1px solid #000;
+  padding-top: 2em;
+}
+
+.copyright {
+  padding-bottom: 1em;
+}
