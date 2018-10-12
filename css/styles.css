@@ -80,12 +80,22 @@ span.fa-dark {
 
 /* Layout 1 row styles */
 
+.section-top {
+  margin-bottom: 5em;
+}
+
 .content-row {
-  margin-top: 7.5em;
+  margin-top: 0;
 }
 
 .scroll-row {
   margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.last-scroll-row {
+  margin-top: 5em;
+  margin-bottom: 0;
 }
 
 .section-img-left {
@@ -117,7 +127,7 @@ span.fa-dark {
 }
 
 footer {
-  margin-top: 5em;
+  margin-top: 2em;
   border: 1px solid #000;
   padding-top: 2em;
 }
