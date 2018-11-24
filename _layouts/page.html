@@ -3,10 +3,18 @@ layout: default
 ---
 <article class="page">
 
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
-
-  {{ content }}
-
+  {% if page.order == 0 %}
+    {% include home.html %}
+  {% elsif page.order == 1 %}
+    {% include about.html %}
+  {% elsif page.order == 2 %}
+    {% include clients.html %}
+  {% elsif page.order == 3 %}
+    {% include services.html %}
+  {% elsif page.order == 4 %}
+    {% include contact.html %}
+  {% else %}
+    <p>error</p>
+  {% endif %}
+  
 </article>
