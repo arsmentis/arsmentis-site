@@ -1,3 +1,4 @@
 ---
-layout: home
+layout: page
+order: 0
 ---
