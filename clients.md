@@ -1,5 +1,5 @@
 ---
 layout: page
-order: 2
 title: Clients
+permalink: /clients/
 ---

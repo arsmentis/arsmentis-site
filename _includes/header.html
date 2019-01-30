@@ -6,10 +6,10 @@
 
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for node in sorted_pages %}
-        <li class="nav-item"><a class="nav-link" href="{{ node.url | prepend: site.url }}">{{node.title}}</a></li>
-      {% endfor %}
+      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about/">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/clients/">Clients</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/services/">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a></li>
     </ul>
   </div>
 </nav>
