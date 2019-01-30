@@ -8,7 +8,7 @@ author:
 description: >
   Custom software solutions for clients of any size. All problems have solutions.
   Let me solve yours.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://skbruck.github.io/am-j2" # the base hostname & protocol for your site
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE']
