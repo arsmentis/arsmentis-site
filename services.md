@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Services
-permalink: /services/
+jumbotitle: Services
+subtitle: Meeting your technology needs
 order: 3
 ---
