@@ -157,3 +157,11 @@ img {
 .extra-space-row {
   margin-bottom: 3em;
 }
+
+/* Home page styles */
+
+.img-home {
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+}
