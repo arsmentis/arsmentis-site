@@ -16,27 +16,31 @@ body {
   max-width: 100%;
 }
 
+nav.navbar {
+	background: transparent;
+}
+
 .nav-item {
   padding-left: .6em;
   padding-right: .6em;
 }
 
-.nav-link {
+.navbar ul.navbar-nav li.nav-item a.nav-link {
   font-family: 'Average', serif;
   font-size: 1em;
   color: rgba(255,255,255,1);
   margin-top: .5em;
 }
   
-.nav-link:hover {
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
   color: rgba(255,255,255,.75);
 }
 
 /* Jumbotron styles */
 .jumbotron {
-  background-image: url("../img/home.png");
+  background-image: url("../img/home.jpg");
   background-size: cover;
-  margin-top: -80px;
+  margin-top: 0px;
   padding-top: 15em;
   padding-bottom: 10.5em;
 }
@@ -164,4 +168,11 @@ img {
   width: 400px;
   height: 400px;
   max-width: 100%;
+}
+
+/* change navbar background on collapse */
+@media (max-width: 768px) {
+  nav.navbar {
+    background: rgba(0,0,0,.5);
+  }
 }
