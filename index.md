@@ -1,4 +1,6 @@
 ---
 layout: page
-order: 0
+jumbotitle: Custom Software Solutions
+subtitle: All problems have solutions. Let me solve yours.
+order: 1
 ---
