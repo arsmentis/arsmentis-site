@@ -8,14 +8,8 @@ author:
 description: >
   Custom software solutions for clients of any size. All problems have solutions.
   Let me solve yours.
-
-# Baseurl and url for live site
 baseurl: "/am-j2"
 url: "https://skbruck.github.io"
-
-# Baseurl and url for testing site
-# baseurl: ""
-# url: ""
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE']
 permalink: pretty
