@@ -11,13 +11,13 @@ body {
 
 /* Navbar styles */
 
-.logo {
-  height: 50px;
-  max-width: 100%;
-}
-
 nav.navbar {
 	background: transparent;
+	transition: top 0.5s ease;
+}
+
+.navbar-hide {
+  top: -100px;
 }
 
 .nav-item {
@@ -36,12 +36,17 @@ nav.navbar {
   color: rgba(255,255,255,.75);
 }
 
-/* Jumbotron styles */
-.jumbotron {
+/* Image Section Styles */
+.img-section {
   background-image: url("../img/home.jpg");
   background-size: cover;
-  margin-top: 0px;
-  padding-top: 15em;
+	background-position: center top !important;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+  background: transparent;
+  padding-top: 17.5em;
   padding-bottom: 10.5em;
 }
 
