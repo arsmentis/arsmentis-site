@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<div class="scroll img-section">
+<div class="scroll">
   <a id="top"></a>
 </div>
 <div class="img-section">
 	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1 class="text-center jumbotron-title">{{ page.title }}</h1>
-			<p class="text-center jumbotron-sub">{{ page.subtitle }}</p>
-			<div class="text-center">
-				<a href="#miradio" class="btn btn-circle scroll-btn-light">
-					<span class="fa fa-angle-double-down fa-light animated"></span>
-				</a>
-			</div>
+		<h1 class="text-center jumbotron-title">{{ page.title }}</h1>
+		<p class="text-center jumbotron-sub">{{ page.subtitle }}</p>
+		<div class="text-center">
+			<a href="#miradio" class="btn btn-circle scroll-btn-light">
+				<span class="fa fa-angle-double-down fa-light animated"></span>
+			</a>
 		</div>
 	</div>
 </div>
@@ -22,227 +20,238 @@ layout: default
 	<a id="miradio"></a>
 </div>
 <div class="container">
-	<div class="row content-row align-items-center">
-		<div class="col text-right section-img-left">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/environmentReport.png" | relative_url }}">
+	
+	<div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/environmentReport.png" | relative_url }}">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>Michigan Radio</h2>
+				<h3>The Environment Report</h3>
+				<p class="text-justify">I helped Michigan Radio move over 5000 articles (nearly 15 years of archives) from a custom built CMS to a standard <a href="https://wordpress.org/">WordPress</a> site. This process included cleaning data sources, transitioning audio and images from the old site, and providing redirect links to maintain SEO with the new site.</p>
+				<a href="http://environmentreport.org/" type="button" class="btn btn-primary">Visit The Environment Report's website</a>
+			</div>
 		</div>
-		<div class="co-xs-visible col">
-			<h2>Michigan Radio</h2>
-			<h3>The Environment Report</h3>
-			<p class="section-blurb-right">I helped Michigan Radio move over 5000 articles (nearly 15 years of archives) from a custom built CMS to a standard <a href="https://wordpress.org/">WordPress</a> site. This process included cleaning data sources, transitioning audio and images from the old site, and providing redirect links to maintain SEO with the new site.</p>
-			<a href="http://environmentreport.org/" type="button" class="btn btn-primary">Visit The Environment Report's website</a>
-		</div>
-	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#nsbasic" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="section-top">
-	<a id="nsbasic"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="co-xs-visible col section-blurb-left">
-			<h2>NS Basic Corporation</h2>
-			<h3>Appstudio</h3>
-			<p class="section-blurb-para">AppStudio is a cross platform, integrated development environment for the creation of mobile applications. I’ve been involved with the project from the outset, first as the programming languages consultant and now as the lead developer.</p>
-			<a href="https://www.nsbasic.com/" type="button" class="btn btn-primary">Visit AppStudio's website</a>
-		</div>
-		<div class="col text-left section-img-right">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/appstudio.png" | relative_url }}">
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#nsbasic" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#demandFood" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
+	
+	<div class="section-top">
+		<a id="nsbasic"></a>
+	</div>
+  <div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-sm-12 col-md-6">
+				<h2>NS Basic Corporation</h2>
+				<h3>Appstudio</h3>
+				<p class="text-justify">AppStudio is a cross platform, integrated development environment for the creation of mobile applications. I’ve been involved with the project from the outset, first as the programming languages consultant and now as the lead developer.</p>
+				<a href="https://www.nsbasic.com/" type="button" class="btn btn-primary">Visit AppStudio's website</a>
+			</div>
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/appstudio.png" | relative_url }}">
+			</div>
+		</div>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#demandFood" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-<div class="section-top">
-	<a id="demandFood"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="col text-right section-img-left">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/demandFood.png" | relative_url }}">
+
+	<div class="section-top">
+		<a id="demandFood"></a>
+	</div>
+	<div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/demandFood.png" | relative_url }}">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>Demand Food</h2>
+				<p class="text-justify">DemandFood is a food delivery service based in Austin, TX. I have created and currently support a mobile API and cross platform app which supports DemandFood’s delivery service using modern, highly available web technologies.</p>
+				<a href="https://demandfood.com/" type="button" class="btn btn-primary">Visit DemandFood's website</a>
+			</div>
 		</div>
-		<div class="co-xs-visible col">
-			<h2>Demand Food</h2>
-			<p class="section-blurb-right">DemandFood is a food delivery service based in Austin, TX. I have created and currently support a mobile API and cross platform app which supports DemandFood’s delivery service using modern, highly available web technologies.</p>
-			<a href="https://demandfood.com/" type="button" class="btn btn-primary">Visit DemandFood's website</a>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#msu" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#msu" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
+
+	<div class="section-top">
+		<a id="msu"></a>
+	</div>
+  <div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-sm-12 col-md-6">
+				<h2>MSU College of Law</h2>
+				<h3>AnimalLaw.info Data Transfer</h3
+				<p class="text-justify">I transitioned Michigan State University’s Animal Law repository, the largest of its kind, from a proprietary CMS to Drupal. My job was hosting and configuring Drupal as well as managing the migration of data. The proprietary CMS had to be completely reversed engineered, as there was no documentation.</p>
+				<a href="http://animallaw.info/" type="button" class="btn btn-primary">Visit MSU's Animal Law website</a>
+			</div>
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/animallaw.png" | relative_url }}">
+			</div>
+		</div>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#iema" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-<div class="section-top">
-	<a id="msu"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="co-xs-visible col section-blurb-left">
-			<h2>MSU College of Law</h2>
-			<h3>AnimalLaw.info Data Transfer</h3>
-			<p class="section-blurb-para">I transitioned Michigan State University’s Animal Law repository, the largest of its kind, from a proprietary CMS to Drupal. My job was hosting and configuring Drupal as well as managing the migration of data. The proprietary CMS had to be completely reversed engineered, as there was no documentation.</p>
-			<a href="http://animallaw.info/" type="button" class="btn btn-primary">Visit MSU's Animal Law website</a>
+
+	<div class="section-top">
+		<a id="iema"></a>
+	</div>
+	<div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/ilmansion.png" | relative_url }}">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>Illinois Executive Mansion Association</h2>
+				<h3>Custom Website Design & Development</h3>
+				<p class="text-justify">I created a custom website for the Illionois Executive Mansion Association, a non-profit organization. The fully responsive website design has been extensively tested for cross-browser compatability and has tailor-made donation processing using <a href="https://stripe.com">stripe.com</a>.</p>
+			</div>
 		</div>
-		<div class="col text-left section-img-right">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/animallaw.png" | relative_url }}">
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#teachLearn" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#iema" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
+
+	<div class="section-top">
+		<a id="teachLearn"></a>
+	</div>
+  <div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-sm-12 col-md-6">
+				<h2>MSU Teaching & Learning</h2>
+				<h3>LDX</h3>
+				<p class="text-justify">I investigated and resolved a high priority networking issue with their Flash based LDX simulation. The task involved a deep dive into legacy source code to determine a root cause for intermittent connectivity problems between the media server and the back end database.</p>
+			</div>
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/teachlearn.png" | relative_url }}">
+			</div>
+		</div>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#olivet" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-<div class="section-top">
-	<a id="iema"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="col text-right section-img-left">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/ilmansion.png" | relative_url }}">
+
+	<div class="section-top">
+		<a id="olivet"></a>
+	</div>
+	<div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/olivet.png" | relative_url }}">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>Olivet College</h2>
+				<h3>IT Consulting & Adjunct Professor</h3>
+				<p class="text-justify">I was instrumental in implementing and maintaining Olivet College’s experimental GNU/Linux-based computer lab. Additionally, I was previously an adjunct professor in the Computer Science department teaching Computer Science I & II, Relational Database Systems, Computer Networking and Computer Organization & Assembly Language.</p>
+				<a href="http://www.olivetcollege.edu/" type="button" class="btn btn-primary">Visit Olivet College's website</a>
+			</div>
 		</div>
-		<div class="co-xs-visible col">
-			<h2>Illinois Executive Mansion Association</h2>
-			<h3>Custom Website Design & Development</h3>
-			<p class="section-blurb-right"> created a custom website for the Illionois Executive Mansion Association, a non-profit organization. The fully responsive website design has been extensively tested for cross-browser compatability and has tailor-made donation processing using <a href="https://stripe.com">stripe.com</a>.</p>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#thoughtback" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#teachLearn" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
+
+	<div class="section-top">
+		<a id="thoughtback"></a>
+	</div>
+  <div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-sm-12 col-md-6">
+				<h2>Sharp UP LLC</h2>
+				<h3>Thoughtback</h3>
+				<p class="section-blurb-para">Thoughtback is a web and mobile productivity app that has been installed on thousands of Android devices. I created Thoughtback’s Android app and was an early member of the development team for the web app.</p>
+				<a href="https://thoughtback.com/" type="button" class="btn btn-primary">Visit Thoughtback's website</a>
+			</div>
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/thoughtback.png" | relative_url }}">
+			</div>
+		</div>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#olark" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-<div class="section-top">
-	<a id="teachLearn"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="co-xs-visible col section-blurb-left">
-			<h2>MSU Teaching & Learning</h2>
-			<h3>LDX</h3>
-			<p class="section-blurb-para">I investigated and resolved a high priority networking issue with their Flash based LDX simulation. The task involved a deep dive into legacy source code to determine a root cause for intermittent connectivity problems between the media server and the back end database.</p>
-			<a href="https://tech.msu.edu/itservices/teaching-learning/" type="button" class="btn btn-primary">Visit MSU's Teaching & Learning website</a>
+
+	<div class="section-top">
+		<a id="olark"></a>
+	</div>
+	<div class="full-section">
+		<div class="row justify-content-center align-items-center content-row">
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/olark.png" | relative_url }}">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>Habla LLC</h2>
+				<h3>Olark</h3>
+				<p class="text-justify">Olark helps businesses integrate online chatting capabilities into their websites. Olark contacted me to build a custom <a href=="https://www.pidgin.im/">Pidgin</a> installer for Windows based on the default <a href="http://nsis.sourceforge.net/Main_Page">Nullsoft</a> installer.</p>
+				<a href="https://www.olark.com/" type="button" class="btn btn-primary">Visit Olark's website</a>
+			</div>
 		</div>
-		<div class="col text-left section-img-right">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/teachlearn.png" | relative_url }}">
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#alliant" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-down fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#olivet" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
-		</div>
+	
+	<div class="section-top">
+		<a id="alliant"></a>
 	</div>
-</div>
-<div class="section-top">
-	<a id="olivet"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="col text-right section-img-left">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/olivet.png" | relative_url }}">
+	<div class="short-section">
+		<div class="row justify-content-center align-items-center short-row">
+			<div class="col-sm-12 col-md-6">
+				<h2>Alliant Healthcare Products</h2>
+				<h3>Software Development</h3>
+				<p class="text-justify">I created an internal web application for Alliant Healthcare Products which enabled the company to track sales leads.</p>
+				<a href="http://allianthealthcare.com/" type="button" class="btn btn-primary">Visit Alliant Healthcare's website</a>
+			</div>
+			<div class="col-md-3 d-none d-sm-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="{{ "/img/alliant.png" | relative_url }}">
+			</div>
 		</div>
-		<div class="co-xs-visible col">
-			<h2>Olivet College</h2>
-			<h3>IT Consulting & Adjunct Professor</h3>
-			<p class="section-blurb-right">I was instrumental in implementing and maintaining Olivet College’s experimental GNU/Linux-based computer lab. Additionally, I was previously an adjunct professor in the Computer Science department teaching Computer Science I & II, Relational Database Systems, Computer Networking and Computer Organization & Assembly Language.</p>
-			<a href="http://www.olivetcollege.edu/" type="button" class="btn btn-primary">Visit Olivet College's website</a>
-		</div>
-	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#thoughtback" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="section-top">
-	<a id="thoughtback"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="co-xs-visible col section-blurb-left">
-			<h2>Sharp UP LLC</h2>
-			<h3>Thoughtback</h3>
-			<p class="section-blurb-para">Thoughtback is a web and mobile productivity app that has been installed on thousands of Android devices. I created Thoughtback’s Android app and was an early member of the development team for the web app.</p>
-			<a href="https://thoughtback.com/" type="button" class="btn btn-primary">Visit Thoughtback's website</a>
-		</div>
-		<div class="col text-left section-img-right">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/thoughtback.png" | relative_url }}">
-		</div>
-	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#olark" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="section-top">
-	<a id="olark"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="col text-right section-img-left">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/olark.png" | relative_url }}">
-		</div>
-		<div class="co-xs-visible col">
-			<h2>Habla LLC</h2>
-			<h3>Olark</h3>
-			<p class="section-blurb-right">Olark helps businesses integrate online chatting capabilities into their websites. Olark contacted me to build a custom <a href=="https://www.pidgin.im/">Pidgin</a> installer for Windows based on the default <a href="http://nsis.sourceforge.net/Main_Page">Nullsoft</a> installer.</p>
-			<a href="https://www.olark.com/" type="button" class="btn btn-primary">Visit Olark's website</a>
-		</div>
-	</div>
-	<div class="row scroll-row">
-		<div class="col text-center">
-			<a href="#alliant" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-down fa-dark animated"></span>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="section-top">
-	<a id="alliant"></a>
-</div>
-<div class="container">
-	<div class="row content-row align-items-center">
-		<div class="co-xs-visible col section-blurb-left">
-			<h2>Alliant Healthcare Products</h2>
-			<h3>Software Development</h3>
-			<p class="section-blurb-para">I created an internal web application for Alliant Healthcare Products which enabled the company to track sales leads.</p>
-			<a href="http://allianthealthcare.com/" type="button" class="btn btn-primary">Visit Alliant Healthcare's website</a>
-		</div>
-		<div class="col text-left section-img-right">
-			<img class="img-fluid img-thumbnail" src="{{ "/img/alliant.png" | relative_url }}">
-		</div>
-	</div>
-	<div class="row last-scroll-row">
-		<div class="col text-center">
-			<a href="#top" class="btn btn-circle scroll-btn-dark">
-				<span class="fa fa-angle-double-up fa-dark animated"></span>
-			</a>
+		<div class="row scroll-row">
+			<div class="col text-center">
+				<a href="#top" class="btn btn-circle scroll-btn-dark">
+					<span class="fa fa-angle-double-up fa-dark animated"></span>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
