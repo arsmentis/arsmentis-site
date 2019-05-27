@@ -13,18 +13,9 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-	padding: 0;
-	margin: 0;
 }
-
-.container-fluid {
-	padding: 0;
-}
-
-/* Navbar styles */
 
 nav.navbar {
-	background: transparent;
 	transition: top 0.5s ease;
 }
 
@@ -32,234 +23,54 @@ nav.navbar {
   top: -100px;
 }
 
-.nav-item {
-  padding-left: .6em;
-  padding-right: .6em;
-}
-
 .navbar ul.navbar-nav li.nav-item a.nav-link {
   font-family: 'Average', serif;
-  font-size: 1em;
+  font-size: 1.1em;
   color: rgba(255,255,255,1);
-  margin-top: .5em;
 }
   
 .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
   color: rgba(255,255,255,.75);
 }
 
-/* Logo styles */
-
 .logo {
-	max-width: 100%;
-	max-height: 50px;
-	padding-left: .75em;
+  max-width: 100%;
+  max-height: 50px;
 }
 
-/* Image Section Styles */
-.img-section {
-  background-image: url("../img/home.jpg");
+.bg-img {
+  background-image: url("../img/bg-img.jpg"); /* Add custom pic */
   background-size: cover;
-	background-position: center top !important;
+  background-position: center top !important;
 }
 
-.short-section {
-	height: 65vh;
+.text-light {
+  color: white;
 }
 
-.full-section {
-	height: 100vh;
-}
-
-.contact-row {
-	margin-top: 8em;
-	margin-bottom: 5em;
-}
-
-.short-row {
-	margin-top: 6em;
-	margin-bottom: 5em;
-}
-
-.scroll-row {
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
-
-/* Jumbotron styles */
-.jumbotron {
-  background: transparent;
-  padding-top: 17.5em;
-  padding-bottom: 10.5em;
-}
-
-.jumbotron-title {
-  font-size: 4em;
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: .2em;
-}
-
-.jumbotron-sub-home {
-  font-size: 2em;
-  color: #fff;
-  margin-bottom: 2em;
-}
-
-.jumbotron-sub {
-  font-size: 1.5em;
-  color: #fff;
-  margin-bottom: 3em;
-}
-
-/* Scroll button styles */
-
-.scroll-btn-light {
-  border: 3px solid #fff;
-  border-radius: 50%;
-  padding: .75em 1.25em;
-}
-
-.scroll-btn-dark {
-  border: 3px solid #000;
-  border-radius: 50%;
-  padding: .75em 1.25em;
-}
-
-span.fa-light {
-  color: #fff;
+.icon-sm {
   font-size: 2em;
 }
 
-span.fa-dark {
-  color: #000;
-  font-size: 2em;
+.icon-lg {
+  font-size: 5em;
 }
 
-/*.section-top {
-	margin-bottom: 5em;
+.icon-light {
+  color: white;
 }
 
-.section {
-	height: 100vh;
-}
-
-.scroll-row {
-	margin-top: 5em;
-	margin-bottom: 3em;
-}
-
-.scroll-row {
-  margin-top: 5em;
-  margin-bottom: 2em;
-}
-
-.last-scroll-row {
-  margin-top: 5em;
-  margin-bottom: 0;
-}*/
-
-footer {
-  margin-top: 2em;
-  border: 1px solid #000;
-  padding-top: 2em;
-}
-
-.copyright {
-  padding-bottom: 1em;
+.icon-dark {
+  color: black;
 }
 
 /*
-.section-img-left {
-  padding-right: 4em;
-  padding-left: 0;
-}
+  Bootstrap .container class interferes w/ printing on Safari v8.0
+  Following fix suggested by Bootstrap docs
+*/
 
-.section-blurb-right {
-  padding-right: 8em;
-  padding-left: 0;
-}
-
-.section-img-right {
-  padding-left: 0;
-  margin-left: -3.1em;
-}
-
-.section-blurb-left {
-  padding-left: 8em;
-  padding-right: 0;
-}
-
-.section-blurb-para {
-  padding-right: 7em;
-}
-
-.final-section {
-  padding-bottom: 7em;
-}
-
-footer {
-  margin-top: 2em;
-  border: 1px solid #000;
-  padding-top: 2em;
-}
-
-.copyright {
-  padding-bottom: 1em;
-}
-
-img {
-  height: 400px;
-  width: 400px;
-  max-width: 100%;
-}
-
-.contact-header {
-  margin-bottom: .75em;
-}*/
-
-/* Layout 2 styles
-
-.extra-space-row {
-  margin-bottom: 3em;
-} */
-
-/* Home page styles
-
-.img-home {
-  width: 400px;
-  height: 400px;
-  max-width: 100%;
-}*/
-
-
-/*@media (max-width: 576px) {
-	.content-row {
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-}*/
-
-@media (max-width: 768px) {
-  nav.navbar {
-    background: rgba(0,0,0,.5);
+@media print {
+  .container {
+    width: auto;
   }
-	.logo {
-		padding-left: 0;
-	}
-	.content-row {
-		margin-top: 10em;
-		margin-bottom: 5em;
-	}
-	.content-row {
-		margin-top: 7em;
-		margin-bottom: 5em;
-	}
-}
-
-@media (min-width: 768px) {
-	.content-row {
-		margin-top: 9em;
-		margin-bottom: 6em;
-	}
 }

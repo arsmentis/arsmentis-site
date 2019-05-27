@@ -2,107 +2,105 @@
 layout: default
 ---
 
-<div class="scroll img-section">
-  <a id="top"></a>
-</div>
-<div class="img-section">
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1 class="text-center jumbotron-title">{{ page.jumbotitle }}</h1>
-			<p class="text-center jumbotron-sub">{{ page.subtitle }}</p>
-			<div class="text-center">
-				<a href="#about" class="btn btn-circle scroll-btn-light">
-					<span class="fa fa-angle-double-down fa-light animated"></span>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="section-top">
-  <a id="about"></a>
-</div>
-<div class="container">
-  <div class="row content-row align-items-center">
-    <div class="col text-right section-img-left">
-      <img class="img-fluid img-thumbnail img-home rounded" src="{{ "/img/about.png" | relative_url }}">
-    </div>
-    <div class="co-xs-visible col">
-      <h2>Why choose Ars Mentis?</h2>
-      <p class="section-blurb-right">I create custom software solutions for clients of any size. From concept to completion, I'll work with you to make your idea a reality."</p>
-      <a href="{{ "/about/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">Learn about Ars Mentis</a>
-    </div>
-  </div>
-  <div class="row scroll-row">
-    <div class="col text-center">
-      <a href="#services" class="btn btn-circle scroll-btn-dark">
-        <span class="fa fa-angle-double-down fa-dark animated"></span>
-      </a>
-    </div>
-  </div>
-</div>
-<div class="section-top">
-  <a id="services"></a>
-</div>
-<div class="container">
-  <div class="row content-row align-items-center">
-    <div class="co-xs-visible col section-blurb-left">
-      <h2>Services</h2>
-      <p class="section-blurb-para">Whether you need custom software or IT solutions, I offer a variety of services to meet your needs.</p>
-      <a href="{{ "/services/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">Review my services</a>
-    </div>
-    <div class="col text-left section-img-right">
-      <img class="img-fluid img-thumbnail img-home rounded" src="{{ "/img/clients.png" | relative_url }}">
-    </div>
-  </div>
-  <div class="row scroll-row">
-    <div class="col text-center">
-      <a href="#clients" class="btn btn-circle scroll-btn-dark">
-        <span class="fa fa-angle-double-down fa-dark animated"></span>
-      </a>
-    </div>
-  </div>
-</div>
-<div class="section-top">
-  <a id="clients"></a>
-</div>
-<div class="container">
-  <div class="row content-row align-items-center">
-    <div class="col text-right section-img-left">
-      <img class="img-fluid img-thumbnail img-home rounded" src="{{ "/img/services.png" | relative_url }}">
-    </div>
-    <div class="co-xs-visible col">
-      <h2>Clients</h2>
-      <p class="section-blurb-right">From big businesses to small entrepreneurs, I've helped a wide range of clients.</p>
-      <a href="{{ "/clients/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">See my current and past projects</a>
-    </div>
-  </div>
-  <!--<div class="row scroll-row">
-      <div class="col text-center">
-        <a href="#mentor" class="btn btn-circle scroll-btn-dark">
-          <span class="fa fa-angle-double-down fa-dark animated"></span>
-        </a>
+  <!-- Add this div for a background-image -->
+  <div class="bg-img">
+    <div class="container vh-100">
+      <!-- add anchor to scroll to top -->
+      <div class="row">
+        <a href="#" id="top"></a>
       </div>
-  </div>
-</div>
-<div class="section-top">
-  <a id="mentor"></a>
-</div>
-<div class="container">
-  <div class="row content-row align-items-center">
-    <div class="co-xs-visible col section-blurb-left">
-      <h2>Community Engagement</h2>
-      <p class="section-blurb-para">Through volunteering and career mentorship, I am committed to supporting my local community of coders</p>
-      <a href="{{ "/community/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">Learn how I support my community</a>
-    </div>
-    <div class="col text-left section-img-right">
-      <img class="img-fluid img-thumbnail img-home rounded" src="{{ "/img/mentor.png" | relative_url }}">
-    </div>
-  </div>-->
-  <div class="row last-scroll-row">
-    <div class="col text-center">
-      <a href="#top" class="btn btn-circle scroll-btn-dark">
-        <span class="fa fa-angle-double-up fa-dark animated"></span>
-      </a>
+      <div class="row align-items-center justify-content-center h-100 mb-n4">
+        <div class="col-8 text-center text-light">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="display-4 mt-3 mt-md-5">{{ page.ptitle }}</h1>
+              <p class="lead mb-4">{{ page.subtitle }}</p>
+            </div>
+            <div class="col-12">
+              <a href="#second" class="btn btn-round">
+                <i class="fas fa-angle-double-down icon-sm icon-light mt-4" title="icon name" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+
+  <div class="container vh-100">
+    <!-- add anchor to scroll to -->
+    <div class="row">
+      <a href="#" id="second"></a>
+    </div>
+    <div class="row align-items-center justify-content-center h-100">
+      <div class="col col-md-8 text-center">
+        <div class="row align-items-center">
+          <div class="col col-md-8 order-1">
+            <h2 class="text-justify mt-3">Why choose Ars Mentis?</h2>
+            <p class="text-justify mb-2">I create custom software solutions for clients of any size. From concept to completion, I'll work with you to make your idea a reality.</p>
+            <p class="text-justify mb-4 mt-4"><a href="{{ "/about/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">Learn about Ars Mentis</a></p>
+          </div>
+          <div class="col-md-4 d-none d-sm-none d-md-inline order-2">
+            <img src="{{ "/img/about.png" | relative_url }}" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 order-12">
+            <a href="#third" class="btn btn-round">
+              <i class="fas fa-angle-double-down icon-sm icon-dark mt-4" title="icon name" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container vh-100">
+    <!-- add anchor to scroll to -->
+    <div class="row">
+      <a href="#" id="third"></a>
+    </div>
+    <div class="row align-items-center justify-content-center h-100">
+      <div class="col col-md-8 text-center">
+        <div class="row align-items-center">
+          <div class="col col-md-8 order-2">
+            <h2 class="text-justify mt-3">Services</h2>
+            <p class="text-justify mb-2">Whether you need custom software or IT solutions, I offer a variety of services to meet your needs.</p>
+            <p class="text-justify mb-4 mt-4"><a href="{{ "/services/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">Review my services</a></p>
+          </div>
+          <div class="col-md-4 d-none d-sm-none d-md-inline order-1">
+            <img src="{{ "/img/services.png" | relative_url }}" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 order-12">
+            <a href="#fourth" class="btn btn-round">
+              <i class="fas fa-angle-double-down icon-sm icon-dark mt-4" title="icon name" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container vh-100">
+    <!-- add anchor to scroll to -->
+    <div class="row">
+      <a href="#" id="fourth"></a>
+    </div>
+    <div class="row align-items-center justify-content-center h-100">
+      <div class="col col-md-8 text-center">
+        <div class="row align-items-center">
+          <div class="col col-md-8 order-1">
+            <h2 class="text-justify mt-3">Clients</h2>
+            <p class="text-justify mb-2">From big businesses to small entrepreneurs, I've helped a wide range of clients.</p>
+            <p class="text-justify mb-4 mt-4"><a href="{{ "/clients/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">See my current and past projects</a></p>
+          </div>
+          <div class="col-md-4 d-none d-sm-none d-md-inline order-2">
+            <img src="{{ "/img/clients.png" | relative_url }}" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 order-12">
+            <a href="#top" class="btn btn-round">
+              <i class="fas fa-angle-double-up icon-sm icon-dark mt-4" title="icon name" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -2,42 +2,53 @@
 layout: default
 ---
 
-<div class="scroll">
-  <a id="top"></a>
-</div>
-<div class="img-section">
-	<div class="jumbotron jumbotron-fluid">
-		<h1 class="text-center jumbotron-title">{{ page.title }}</h1>
-		<p class="text-center jumbotron-sub">{{ page.subtitle }}</p>
-		<div class="text-center">
-			<a href="#contact" class="btn btn-circle scroll-btn-light">
-				<span class="fa fa-angle-double-down fa-light animated"></span>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="section-top">
-  <a id="contact"></a>
-</div>
-<div class="container">
-	<div class="short-section">
-		<div class="row contact-row">
-			<div class="col-xs-12 col-sm-8 offset-sm-2">
-				<h2 class="text-center">James Kruth</h2>
-				<h3 class="text-center"><a href="mailto:james@arsmentis.com">james@arsmentis.com</a></h3>
-				<p class="text-center">Phone/Fax: 517.325.3759</p>
-				<p class="text-center">Ars Mentis LLC<br>
-					5208 W Saginaw HWY #80421<br>
-					Lansing MI 48908
-				</p>
-			</div>
-		</div>
-		<div class="row scroll-row">
-			<div class="col text-center">
-				<a href="#top" class="btn btn-circle scroll-btn-dark">
-					<span class="fa fa-angle-double-up fa-dark animated"></span>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
+  <!-- Add this div for a background-image -->
+  <div class="bg-img">
+    <div class="container vh-100">
+      <!-- add anchor to scroll to top -->
+      <div class="row">
+        <a href="#" id="top"></a>
+      </div>
+      <div class="row align-items-center justify-content-center h-100 mb-n4">
+        <div class="col-8 text-center text-light">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="display-4 mt-3 mt-md-5">{{ page.title }}</h1>
+              <p class="lead mb-4">{{ page.subtitle }}</p>
+            </div>
+            <div class="col-12">
+              <a href="#second" class="btn btn-round">
+                <i class="fas fa-angle-double-down icon-sm icon-light mt-4" title="icon name" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container vh-100">
+    <!-- add anchor to scroll to top -->
+    <div class="row">
+      <a href="#" id="second"></a>
+    </div>
+    <div class="row align-items-center justify-content-center h-100 mb-n4">
+      <div class="col-8 text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="display-6 mt-3">James Kruth</h2>
+            <h3 class="mb-4"><a href="mailto:james@arsmentis.com">james@arsmentis.com</a></h3>
+            <p class="mb-4">Phone/Fax: 517.325.3759</p>
+            <p class="mb-4">Ars Mentis LLC<br>
+					    5208 W Saginaw HWY #80421<br>
+					    Lansing MI 48908</p>
+          </div>
+          <div class="col-12">
+            <a href="#top" class="btn btn-round">
+              <i class="fas fa-angle-double-up icon-sm icon-dark mt-4" title="icon name" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
