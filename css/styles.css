@@ -1,76 +1,238 @@
-/* Font families
-
-font-family: 'Average', serif;
-font-family: 'Open Sans', sans-serif;
-
-*/
+/**
+ * html styles
+ *
+ * make page scroll smoothly on click
+ */
 
 html {
-  scroll-behavior: smooth;
+    height: 100%;
+    scroll-behavior: smooth;
 }
 
-/* Body styles */
+
+/**
+ * Body styles
+ */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
 }
 
+/**
+ * Typography styles
+ */
+
+.text-light {
+    color: white;
+}
+
+
+/**
+ * Nav styles
+ */
+
 nav.navbar {
-	transition: top 0.5s ease;
+    transition: top 0.5s ease;
 }
 
 .navbar-hide {
-  top: -100px;
+    top: -100px;
 }
 
 .navbar ul.navbar-nav li.nav-item a.nav-link {
-  font-family: 'Average', serif;
-  font-size: 1.1em;
-  color: rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+    font-family: 'Average', serif;
+    font-size: 1.1em;
 }
-  
+
 .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
-  color: rgba(255,255,255,.75);
+    color: rgba(255,255,255,.75);
 }
 
 .logo {
-  max-width: 100%;
-  max-height: 50px;
+    max-height: 50px;
+    max-width: 100%;
 }
 
-.bg-img {
-  background-image: url("../img/bg-img.jpg"); /* Add custom pic */
-  background-size: cover;
-  background-position: center top !important;
+
+/**
+ * Home hero section styles
+ */
+
+.home-hero {
+    background-image:
+	linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.1)),
+	url("../img/bg-img.jpg");
+    background-position: center top !important;
+    background-size: cover;
+    min-height: 100vh;
 }
 
-.text-light {
-  color: white;
+.hh-container {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: auto;
 }
 
-.icon-sm {
-  font-size: 2em;
+.hh-row {
+    align-self: center;
 }
 
-.icon-lg {
-  font-size: 5em;
+.hh-h1 {
+    font-size: 4em;
+    margin-top: 4.5em;
+    margin-bottom: .25em;
+}
+
+.hh-p {
+    font-size: 2em;
+}
+
+.hh-icon {
+    margin: 3em 0;
+}
+
+
+/**
+ * Page hero section styles
+ */
+
+
+/**
+ * Fullscreen container styles
+ */
+
+.fs-container {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.fs-row {
+    align-self: center;
+}
+
+
+/**
+ * Fullscreen content styles
+ */
+
+.fs-h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.fs-h3 {
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.fs-p {
+    margin-bottom: 2em;
+}
+
+.fs-img {
+    margin-bottom: 2em;
+}
+
+.fs-button {
+    margin-top: 2em;
+}
+
+.fs-icon {
+    margin: 2em 0;
+}
+
+.content-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1.75em;
+}
+
+
+/**
+ * Contact form styles
+ */
+
+.contact-form {
+    margin-top: 1em;
+}
+
+.form-control {
+    margin-bottom: 1em;
+}
+
+/**
+ * Address styles
+ */
+
+.a-h3 {
+    margin-top: 1em;
+    margin-bottom: 1.25em;
+}
+
+.a-h4 {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+/**
+ * Graphic styles
+ */
+
+.icon-md {
+    font-size: 2.5em;
 }
 
 .icon-light {
-  color: white;
+    color: white;
 }
 
 .icon-dark {
-  color: black;
+    color: black;
 }
 
-/*
-  Bootstrap .container class interferes w/ printing on Safari v8.0
-  Following fix suggested by Bootstrap docs
-*/
+.last-icon {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
 
+
+/**
+ * Media queries
+ */
+
+/* fixes .container interference with printing in Safari v8.0 */
 @media print {
-  .container {
-    width: auto;
-  }
+    .container {
+	width: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hh-h1 {
+	font-size: 2em;
+	margin-top: 3em;
+    }
+    .hh-p {
+	font-size: 1em;
+    }
+    .hh-icon {
+	margin: 1.25em 0;
+    }
+    .fs-h2 {
+	margin-bottom: 1em;
+    }
+    .fs-h3 {
+	height: 1em;
+    }
 }
