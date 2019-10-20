@@ -2,223 +2,323 @@
 layout: default
 ---
 
-  <!-- Add this div for a background-image -->
-  <div class="bg-img">
-    <div class="container vh-100">
-      <!-- add anchor to scroll to top -->
-      <div class="row">
-        <a href="#" id="top"></a>
+<div class="home-hero">
+  <div class="row">
+      <a href="#" id="top"></a>
+    </div>
+  <div class="container hh-container">
+    <div class="row hh-row">
+      <div class="col-12">
+	<h1 class="text-center text-light hh-h1">
+	  {{ page.ptitle }}
+	</h1>
+	<p class="text-center text-light hh-p">
+	  {{ page.subtitle }}
+	</p>
       </div>
-      <div class="row align-items-center justify-content-center h-100 mb-n4">
-        <div class="col-8 text-center text-light">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="display-4 mt-3 mt-md-5">{{ page.ptitle }}</h1>
-              <p class="lead mb-4">{{ page.subtitle }}</p>
-            </div>
-            <div class="col-12">
-              <a href="#second" class="btn btn-round">
-                <i class="fas fa-angle-double-down icon-sm icon-light mt-4" title="icon name" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="row hh-row">
+      <div class="col-12">
+	<a href="#second" class="btn btn-round">
+	  <i class="fas fa-angle-double-down icon-md icon-light hh-icon" title="angle-double-down" aria-hidden="true"></i>
+	</a>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container vh-100">
-    <!-- add anchor to scroll to -->
-    <div class="row">
-      <a href="#" id="second"></a>
-    </div>
-    <div class="row align-items-center justify-content-center h-100">
-      <div class="row h-75">
-	<div class="col-12">
-	  <h2 class="text-center my-5 pt-3 pb-2">Why choose Ars Mentis?</h2>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">Custom Software</h3>
-	  <img src="{{ "/img/services-filler-1.jpg" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3">
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">Professional Coaching</h3>
-	  <img src="{{ "/img/services-filler-2.jpg" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3">
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">IT Solutions</h3>
-	  <img src="{{ "/img/services-filler-3.jpg" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3">
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col-12">
-	  <p class="text-center mt-5"><a href="{{ "/services/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">Check out my services and capabilities</a></p>
-	</div>
-      </div>
-      <div class="row align-items-center justify-content-center h-25">
-	<div class="col-12">
-	  <a href="#third" class="btn btn-round pt-5">
-            <i class="fas fa-angle-double-down icon-sm icon-dark" title="icon name" aria-hidden="true"></i>
-          </a>
-	</div>
-      </div>
+<div class="container fs-container">
+  <div class="row">
+    <a href="#" id="second"></a>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <h2 class="text-center fs-h2">
+	Why choose Ars Mentis?
+      </h2>
     </div>
   </div>
+  <div class="row fs-row">
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	Custom Software
+      </h3>
+      <img src="{{ "img/services-filler-1.jpg" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	Professional Coaching
+      </h3>
+      <img src="{{ "img/services-filler-2.jpg" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	IT Solutions
+      </h3>
+      <img src="{{ "img/services-filler-3.jpg" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <p class="text-center fs-button">
+	<a href="{{ "/services/" | prepend: site.baseurl }}" type="button" class="btn btn-lg btn-primary shadow">
+	  Check out my services and capabilities
+	</a>
+      </p>
+    </div>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <a href="#third" class="btn btn-round">
+	<i class="fas fa-angle-double-down icon-md icon-dark fs-icon" title="angle-double-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
 
-  <div class="container vh-100">
-    <!-- add anchor to scroll to -->
-    <div class="row">
-      <a href="#" id="third"></a>
-    </div>
-    <div class="row align-items-center justify-content-center h-100">
-      <div class="row h-75">
-	<div class="col-12">
-	  <h2 class="text-center my-5 pt-3 pb-2">Solutions for every problem, big business or small</h2>
-	</div>
-	<div class="col">
-	  <h3 class="text-center">PawnGuru</h3>
-	  <a href="https://www.pawnguru.com/"><img src="{{ "/img/pawnguru.png" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3"></a>
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">MSU College of Law</h3>
-	  <a href="https://www.animallaw.info/"><img src="{{ "/img/animallaw.png" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3"></a>
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">SharpUp, LLC</h3>
-	  <a href="http://sharpup.com/"><img src="{{ "/img/sharpup.png" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3"></a>
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col-12">
-	  <p class="text-center mt-5"><a href="{{ "/clients/" | prepend: site.baseurl }}" type="button" class="btn btn-primary">View more clients and solutions</a></p>
-	</div>
-      </div>
-      <div class="row align-items-center justify-content-center h-25">
-	<div class="col-12">
-	  <a href="#fourth" class="btn btn-round pt-5">
-            <i class="fas fa-angle-double-down icon-sm icon-dark" title="icon name" aria-hidden="true"></i>
-          </a>
-	</div>
-      </div>
+<div class="container fs-container">
+  <div class="row">
+    <a href="#" id="third"></a>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <h2 class="text-center fs-h2">
+	Solutions for every problem, big business or small
+      </h2>
     </div>
   </div>
+  <div class="row fs-row">
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	PawnGuru
+      </h3>
+      <a href="https://www.pawnguru.com/">
+	<img src="{{ "img/pawnguru.png" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      </a>
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	MSU College of Law
+      </h3>
+      <a href="https://www.animallaw.info/">
+	<img src="{{ "img/animallaw.png" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      </a>
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	SharpUp, LLC
+      </h3>
+      <a href="https://sharpup.com/">
+	<img src="{{ "img/sharpup.png" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      </a>
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <p class="text-center fs-button">
+	<a href="{{ "/services/" | prepend: site.baseurl }}" type="button" class="btn btn-lg btn-primary shadow">
+	  View more clients and solutions
+	</a>
+      </p>
+    </div>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <a href="#fourth" class="btn btn-round">
+	<i class="fas fa-angle-double-down icon-md icon-dark fs-icon" title="angle-double-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
 
-  <div class="container vh-100">
-    <!-- add anchor to scroll to -->
-    <div class="row">
-      <a href="#" id="fourth"></a>
-    </div>
-    <div class="row align-items-center justify-content-center h-100">
-      <div class="row h-75">
-	<div class="col-12">
-	  <h2 class="text-center my-5 pt-3 pb-2">How it works</h2>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">Consultation</h3>
-	  <img src="{{ "/img/howitworks-filler-1.jpg" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3">
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">Development</h3>
-	  <img src="{{ "/img/howitworks-filler-2.jpg" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3">
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <h3 class="text-center mb-3">Support</h3>
-	  <img src="{{ "/img/services-filler-3.jpg" | relative_url }}" class="img-fluid img-thumbnail border-0 p-3">
-	  <p class="text-justify p-3">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col-12">
-	  <p class="text-center mt-5"><a href="#contact" type="button" class="btn btn-primary">Get started today!</a></p>
-	</div>
-      </div>
-      <div class="row align-items-center justify-content-center h-25">
-	<div class="col-12">
-	  <a href="#contact" class="btn btn-round pt-5">
-            <i class="fas fa-angle-double-down icon-sm icon-dark" title="icon name" aria-hidden="true"></i>
-          </a>
-	</div>
-      </div>
+<div class="container fs-container">
+  <div class="row">
+    <a href="#" id="fourth"></a>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <h2 class="text-center fs-h2">
+	How it works
+      </h2>
     </div>
   </div>
+  <div class="row fs-row">
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	Consultation
+      </h3>
+      <img src="{{ "img/howitworks-filler-1.jpg" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	Development
+      </h3>
+      <img src="{{ "img/howitworks-filler-2.jpg" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 content-col">
+      <h3 class="text-center fs-h3">
+	Support
+      </h3>
+      <img src="{{ "img/howitworks-filler-3.jpg" }}" class="img-fluid d-none d-md-inline shadow fs-img" alt="" role="presentation">
+      <p class="text-justify fs-p">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
+    </div>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <p class="text-center fs-button">
+	<a href="{{ "/services/" | prepend: site.baseurl }}" type="button" class="btn btn-lg btn-primary shadow">
+	  Get started today!
+	</a>
+      </p>
+    </div>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <a href="#fifth" class="btn btn-round">
+	<i class="fas fa-angle-double-down icon-md icon-dark fs-icon" title="angle-double-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
 
-  <div class="container vh-100">
-    <!-- add anchor to scroll to -->
-    <div class="row">
-      <a href="#" id="contact"></a>
+<div class="container fs-container">
+  <div class="row">
+    <a href="#" id="fifth"></a>
+  </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <h2 class="text-center fs-h2">
+	Ready to get started? Contact me now!
+      </h2>
+      <p class="text-center fs-p d-none d-md-block">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+	vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus
+	tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec
+	pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo.
+	Aliquam erat volutpat.
+      </p>
     </div>
-    <div class="row align-items-center justify-content-center h-100">
-      <div class="row h-75">
-	<div class="col-12">
-	  <h2 class="text-center mt-5 pt-3">Ready to get started? Contact me now!</h2>
-	  <p class="text-center px-5 pt-3 mb-0">
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae odio dolor. In a suscipit sem. Sed accumsan quam at tellus tincidunt volutpat. Nulla nec mollis libero, in varius quam. Donec pretium ex dignissim aliquet venenatis. Etiam sit amet commodo justo. Aliquam erat volutpat.
-	  </p>
-	</div>
-	<div class="col">
-	  <form>
-	    <div class="row">
-	      <div class="col">
-		<input type="text" class="form-control form-control-lg mb-4" placeholder="First name">
-	      </div>
-	      <div class="col">
-		<input type="text" class="form-control form-control-lg mb-4" placeholder="Last name">
-	      </div>
+    <div class="col-12 col-md-6">
+      <form class="needs-validation contact-form" novalidate>
+	<div class="form-row">
+	  <div class="col col-xs-12">
+	    <label for="validationFirstName" class="sr-only">First name</label>
+	    <input type="text" class="form-control form-control-lg shadow" id="validationFirstName" placeholder="First name" required>
+	    <div class="valid-feedback">
+	      Looks good!
 	    </div>
-	    <div class="row">
-	      <div class="col">
-		<input type="email" class="form-control form-control-lg mb-4" id="exampleFormControlInput1" placeholder="email@example.com">
-	      </div>
+	    <div class="invalid-feedback">
+	      Please include your name.
 	    </div>
-	    <div class="row">
-	      <div class="col">
-		<textarea class="form-control form-control-lg mb-4" id="exampleFormControlTextarea1" rows="3"></textarea>
-	      </div>
+	  </div>
+	  <div class="col col-xs-12">
+	    <label for="validationLastName" class="sr-only">Last name</label>
+	    <input type="text" class="form-control form-control-lg shadow" id="validationLastName" placeholder="Last name" required>
+	    <div class="valid-feedback">
+	      Looks good!
 	    </div>
-	    <div class="row">
-	      <div class="col">
-		<button type="submit" class="btn btn-primary text-center">Submit</button>
-	      </div>
+	    <div class="invalid-feedback">
+	      Please include your name.
 	    </div>
-	  </form>
+	  </div>
 	</div>
-	<div class="col">
-	  <h3 class="text-center mb-5">James Kruth</h3>
-	  <h4 class="text-center mb-5">
-	    <a class="text-center" href="mailto:james@arsmentis.com">james@arsmentis.com</a>
-	  </h4>
-          <p class="text-center my-2">Phone/Fax: 517.325.3759</p>
-          <p class="text-center mb-4">
-	    Ars Mentis LLC<br>2075 W Stadium Blvd # 3348<br>Ann Arbor, MI 48106-7797
-	  </p>
+	<div class="form-row">
+	  <div class="col col-xs-12">
+	    <label for="validationEmail" class="sr-only">Email</label>
+	    <input type="email" class="form-control form-control-lg shadow" id="validationEmail" placeholder="email@example.com" required>
+	  </div>
 	</div>
-      </div>
-      <div class="row align-items-center justify-content-center h-25">
-	<div class="col-12">
-	  <a href="#top" class="btn btn-round">
-            <i class="fas fa-angle-double-up icon-sm icon-dark mt-4" title="icon name" aria-hidden="true"></i>
-          </a>
+	<div class="form-row">
+	  <div class="col">
+	    <label for="validationUserMessage" class="sr-only">Message</label>
+	    <textarea class="form-control form-control-lg shadow" id="validationUserMessage" rows="3" aria-label="Message area" required></textarea>
+	  </div>
 	</div>
-      </div>
+	<div class="form-row">
+	  <div class="col">
+	    <button type="submit" class="btn btn-lg btn-primary text-center shadow">Submit</button>
+	  </div>
+	</div>
+      </form>
+    </div>
+    <div class="col d-none d-md-block">
+      <h3 class="text-center a-h3">James Kruth</h3>
+      <h4 class="text-center a-h4">
+	<a class="text-center" href="mailto:james@arsmentis.com">james@arsmentis.com</a>
+      </h4>
+      <p class="text-center">Phone/Fax: 517.325.3759</p>
+      <p class="text-center">
+	Ars Mentis LLC<br>2075 W Stadium Blvd # 3348<br>Ann Arbor, MI 48106-7797
+      </p>
     </div>
   </div>
+  <div class="row fs-row">
+    <div class="col-12">
+      <a href="#top" class="btn btn-round">
+	<i class="fas fa-angle-double-up icon-md icon-dark last-icon" title="angle-double-up" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
