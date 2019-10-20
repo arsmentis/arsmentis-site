@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3988.231"
-   height="649.63904"
+   width="3839.1216"
+   height="649.19214"
    id="svg3352"
    version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   viewBox="0 0 3988.231 649.63905"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   viewBox="0 0 3839.1216 649.19215"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/sarah/Code/arsmentis/.themes/arsmentis/source/images/splash_logo.png"
    inkscape:export-xdpi="71.129997"
@@ -40,8 +40,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.29623022"
-     inkscape:cx="1008.8329"
-     inkscape:cy="189.78938"
+     inkscape:cx="1661.92"
+     inkscape:cy="-81.164613"
      inkscape:current-layer="layer5"
      inkscape:document-units="px"
      showgrid="false"
@@ -49,10 +49,10 @@
      inkscape:snap-global="true"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="714"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -69,34 +69,35 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
      inkscape:snap-text-baseline="true"
-     inkscape:snap-page="true">
+     inkscape:snap-page="true"
+     inkscape:pagecheckerboard="true">
     <sodipodi:guide
-       position="285.51514,649.54403"
+       position="285.51513,649.09713"
        orientation="0,1"
        id="guide3525"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="83.293962,649.54403"
+       position="83.29396,649.09713"
        orientation="0,1"
        id="guide3533"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="458.04397,2.3134337"
+       position="458.04396,1.8665497"
        orientation="0,1"
        id="guide3561"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="245.54397,381.31342"
+       position="245.54396,380.86653"
        orientation="0,1"
        id="guide3427"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="291.54397,507.81342"
+       position="291.54396,507.36653"
        orientation="0,1"
        id="guide3431"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-164.03426,156.6212"
+       position="-164.03426,156.17431"
        orientation="0,1"
        id="guide3446"
        inkscape:locked="false" />
@@ -146,7 +147,7 @@
          id="tspan3425"
          x="390.82843"
          y="470.82843"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:275px;line-height:1.25;font-family:Average;-inkscape-font-specification:Average;letter-spacing:5px">RS</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:275px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:5px">RS</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -164,7 +165,7 @@
          id="tspan3436"
          x="752.4621"
          y="470.26581"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:446.25px;line-height:1.25;font-family:Average;-inkscape-font-specification:Average;fill:#ffffff">M</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:446.25px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#ffffff">M</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -181,7 +182,7 @@
          id="tspan3444"
          x="1174"
          y="470"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:275px;line-height:1.25;font-family:Average;-inkscape-font-specification:Average;letter-spacing:5px;fill:#ffffff">ENTIS</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:275px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:5px;fill:#ffffff">ENTIS</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -192,12 +193,12 @@
          id="tspan3450"
          x="604.24805"
          y="666.91345"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:193.33332825px;line-height:1.25;font-family:Average;-inkscape-font-specification:Average;letter-spacing:15px;fill:#ffffff">C<tspan
-   style="font-size:146.66667175px;letter-spacing:15px"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:193.33332825px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:15px;fill:#ffffff">C<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:146.66667175px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:15px"
    id="tspan844">USTOM <tspan
-   style="font-size:200px;letter-spacing:15px"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:200px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:15px"
    id="tspan848">S</tspan>OFTWARE &amp; <tspan
-   style="font-size:200px;letter-spacing:15px"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:200px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:15px"
    id="tspan846">IT C</tspan>ONSULTING</tspan></tspan></text>
   </g>
   <g
