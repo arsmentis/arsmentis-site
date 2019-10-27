@@ -221,6 +221,26 @@ nav.navbar {
 
 
 /**
+ * Services page styles
+ */
+.services-h3 {
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .75em;
+}
+
+.services-h4 {
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .6em;
+}
+
+.services-p {
+    height: 13em;
+}
+
+
+/**
  * Graphic styles
  */
 
@@ -269,5 +289,18 @@ nav.navbar {
     }
     .fs-h3 {
 	height: 1em;
+    }
+    .services-h3 {
+	height: auto;
+	margin-top: 1em;
+	margin-bottom: .5em;
+    }
+    .services-h4 {
+	height: auto;
+	margin-top: .5em;
+	margin-bottom: .6em;
+    }
+    .services-p {
+	height: auto;
     }
 }
