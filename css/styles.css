@@ -223,6 +223,7 @@ nav.navbar {
 /**
  * Services page styles
  */
+
 .services-h3 {
     height: 2em;
     margin-top: .5em;
@@ -246,6 +247,13 @@ nav.navbar {
 
 .icon-md {
     font-size: 2.5em;
+}
+
+.icon-lg {
+    font-size: 5em;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 .icon-light {
@@ -288,7 +296,7 @@ nav.navbar {
 	margin-bottom: 1em;
     }
     .fs-h3 {
-	height: 1em;
+	height: auto;
     }
     .services-h3 {
 	height: auto;
@@ -302,5 +310,8 @@ nav.navbar {
     }
     .services-p {
 	height: auto;
+    }
+    .icon-lg {
+	font-size: 2em;
     }
 }
