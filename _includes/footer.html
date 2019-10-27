@@ -1,39 +1,36 @@
-  <footer class="mt-n5">
-    <div class="container-fluid p-0">
-      <div class="text-center">
-        <p class="copyright">
-          <small>
-	    Copyright &copy; {{ page.date | default: site.time | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
-	  </small>
-        </p>
+<footer class="mt-n5">
+  <div class="container-fluid p-0">
+    <div class="text-center">
+      <p class="copyright">
+        <small>
+	  Copyright &copy; {{ page.date | default: site.time | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
+	</small>
+      </p>
 
-        {% if site.license %}
-        <p class="license">
-          <small>
-	    {{ site.license }}
-	  </small>
-        </p>
-        {% endif %}
-      </div>
+      {% if site.license %}
+      <p class="license">
+        <small>
+	  {{ site.license }}
+	</small>
+      </p>
+      {% endif %}
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <script>
-  	// scroll functions
-	  $(window).scroll(function(e) {
+<script>
+  // scroll functions
+  $(window).scroll(function(e) {
       // add/remove class to navbar when scrolling to hide/show
       var scroll = $(window).scrollTop();
       if (scroll >= 250) {
-        $('.navbar').addClass("navbar-hide");
+          $('.navbar').addClass("navbar-hide");
       } else {
-        $('.navbar').removeClass("navbar-hide");
+          $('.navbar').removeClass("navbar-hide");
       }
-	  });
-  </script>
-
-  </body>
-</html>
+  });
+</script>
