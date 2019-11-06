@@ -3,15 +3,15 @@
     <div class="text-center">
       <p class="copyright">
         <small>
-	  Copyright &copy; {{ page.date | default: site.time | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
-	</small>
+      	  Copyright &copy; {{ page.date | default: site.time | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
+      	</small>
       </p>
 
       {% if site.license %}
       <p class="license">
         <small>
-	  {{ site.license }}
-	</small>
+          {{ site.license }}
+        </small>
       </p>
       {% endif %}
     </div>
@@ -22,15 +22,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<script>
-  // scroll functions
-  $(window).scroll(function(e) {
-      // add/remove class to navbar when scrolling to hide/show
-      var scroll = $(window).scrollTop();
-      if (scroll >= 250) {
-          $('.navbar').addClass("navbar-hide");
-      } else {
-          $('.navbar').removeClass("navbar-hide");
-      }
+<script type="text/javascript">
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $('nav').addClass('shrink');
+      $('nav').addClass('bg-dark');
+      $('nav').removeClass('bg-transparent');
+      $('.logo').addClass('shrink');
+      $('.nav-item').addClass('shrink');
+    } else {
+      $('nav').removeClass('shrink');
+      $('nav').removeClass('bg-dark');
+      $('nav').addClass('bg-transparent');
+      $('.logo').removeClass('shrink');
+      $('.nav-item').removeClass('shrink');
+    }
   });
 </script>

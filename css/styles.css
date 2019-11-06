@@ -32,26 +32,39 @@ body {
  * Nav styles
  */
 
-nav.navbar {
-    transition: top 0.5s ease;
+nav.navbar.shrink {
+    min-height: 5em;
 }
 
-.navbar-hide {
-    top: -100px;
+nav.navbar {
+    // Animation
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.logo {
+    max-width: 50%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.logo.shrink {
+    max-width: 35%;
 }
 
 .navbar ul.navbar-nav li.nav-item a.nav-link {
     color: rgba(255,255,255,1);
     font-size: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
     color: rgba(255,255,255,.75);
 }
 
-.logo {
-    max-height:67.5px;
-    max-width: 100%;
+.nav-item.shrink {
+    font-size: .75em;
 }
 
 
@@ -160,7 +173,7 @@ nav.navbar {
  */
 
 .fs-h2 {
-    margin-top: 1.5em;
+    margin-top: 4.5em;
     margin-bottom: 1.5em;
 }
 
@@ -277,41 +290,50 @@ nav.navbar {
 /* fixes .container interference with printing in Safari v8.0 */
 @media print {
     .container {
-	width: auto;
+	   width: auto;
     }
 }
 
 @media (max-width: 767.98px) {
+    .navbar {
+        background-color: #343a40 !important;
+    }
+    .logo {
+        max-width: 100%;
+    }
+    .logo.shrink {
+        max-width: 50%;
+    }
     .hh-h1 {
-	font-size: 2em;
-	margin-top: 3em;
+        font-size: 2em;
+        margin-top: 3em;
     }
     .hh-p {
-	font-size: 1em;
+        font-size: 1em;
     }
     .hh-icon {
-	margin: 1.25em 0;
+        margin: 1.25em 0;
     }
     .fs-h2 {
-	margin-bottom: 1em;
+        margin-bottom: 1em;
     }
     .fs-h3 {
-	height: auto;
+        height: auto;
     }
     .services-h3 {
-	height: auto;
-	margin-top: 1em;
-	margin-bottom: .5em;
+        height: auto;
+        margin-top: 1em;
+        margin-bottom: .5em;
     }
     .services-h4 {
-	height: auto;
-	margin-top: .5em;
-	margin-bottom: .6em;
+        height: auto;
+        margin-top: .5em;
+        margin-bottom: .6em;
     }
     .services-p {
-	height: auto;
+        height: auto;
     }
     .icon-lg {
-	font-size: 2em;
+        font-size: 2em;
     }
 }
