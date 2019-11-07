@@ -41,6 +41,7 @@ GEM
       terminal-table (~> 1.8)
     jekyll-compose (0.11.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-deploy (0.0.2)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.0.1)
@@ -88,6 +89,7 @@ DEPENDENCIES
   html-proofer
   jekyll (~> 4.0)
   jekyll-compose
+  jekyll-deploy
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
