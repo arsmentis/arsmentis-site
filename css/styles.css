@@ -74,7 +74,9 @@ nav.navbar {
 
 .home-hero {
     background-color: #343a40;
-    background-image: url("../img/bg-img.jpg");
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.1)),
+        url("../img/bg-img.jpg");
     background-position: center top !important;
     background-size: cover;
     min-height: 100vh;
@@ -114,7 +116,9 @@ nav.navbar {
 
 .page-hero {
     background-color: #343a40;
-    background-image: url("../img/bg-img.jpg");
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.1)),
+        url("../img/bg-img.jpg");
     background-position: center top !important;
     background-size: cover;
     min-height: 50vh;
