@@ -203,7 +203,7 @@ nav.navbar {
 .content-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 1.75em;
 }
 
