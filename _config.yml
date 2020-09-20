@@ -11,7 +11,7 @@ description: >
 baseurl: "/"
 url: "https://skbruck.github.io/am-j2"
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE']
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
 permalink: pretty
 
 kramdown:
