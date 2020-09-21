@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<div class="page-hero" style="background-image: url('../img/bg-img.jpg')">
+<div
+  class="page-hero"
+  style="background-image: url('{{ '/img/bg-img.jpg' | relative_url }}')"
+>
   <div class="row">
     <a href="#" id="top"></a>
   </div>
