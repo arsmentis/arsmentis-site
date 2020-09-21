@@ -3,6 +3,10 @@
   {% include head.html %}
 
   <body>
+    <div id="preload">
+      <img src="{{ '/img/bg-img.jpg' | relative_url }}" alt="" />
+    </div>
+
     {% include header.html %}
 
     <main aria-label="Content" role="main">{{ content }}</main>
