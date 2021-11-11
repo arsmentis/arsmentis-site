@@ -1,17 +1,10 @@
 <nav class="navbar navbar-dark fixed-top bg-transparent navbar-expand-md">
   <div class="container">
-    <a class="navbar-brand w-75" href="{{ '/' | relative_url }}"
-      ><img src="{{ '/img/logo.png' | relative_url }}" class="img-fluid logo"
-    /></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarCollapse"
-      aria-controls="navbarCollapse"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <a class="navbar-brand w-75" href="{{ '/' | relative_url }}">
+      <img src="{{ '/img/logo.png' | relative_url }}" class="img-fluid logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -21,9 +14,7 @@
         in sorted_pages %} {% if node.url == '/' %} {% continue %} {% endif %}
         {% if node.order %}
         <li class="nav-item">
-          <a class="nav-link mt-2 pl-md-3" href="{{ node.url | relative_url }}"
-            >{{node.title}}</a
-          >
+          <a class="nav-link mt-2 pl-md-3" href="{{ node.url | relative_url }}">{{node.title}}</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
