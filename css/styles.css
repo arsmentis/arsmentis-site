@@ -194,6 +194,28 @@ nav.navbar {
 }
 
 /**
+ * Client Card Styles
+ */
+
+div.card {
+  border: 0;
+  margin-bottom: 2em;
+}
+
+h3.card-header {
+  border: 0 !important;
+  background-color: #eee;
+}
+
+img.card-img-top {
+  border: 0 !important;
+}
+
+div.card-body {
+  background-color: #eee;
+}
+
+/**
  * Contact form styles
  */
 
