@@ -25,4 +25,4 @@ plugins:
 
 # deploy
 deploy:
-  - "rsync -crvz --delete-after --delete-excluded ./ skbruck_arsmentis@ssh.phx.nearlyfreespeech.net:"
+  - "rsync -crvz --delete-after --delete-excluded ./ skbruck_arsmentis@ssh.nyc1.nearlyfreespeech.net:"
